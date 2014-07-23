@@ -1,0 +1,145 @@
+@charset "utf-8";
+html
+{
+//	background-color: #F5F5F5;
+	background-color: #CCCCCC;
+}
+.nav_content 
+{
+//	background-image: url(../image/topBar.png);
+//	background-repeat:  repeat-x;
+//	background-color: #666699;
+	background-color: #000000;
+}
+.nav_content ul
+{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	padding: 0;
+	list-style-type:none;
+}
+.nav_content ul li
+{
+	float: left;
+}
+.nav_content a:link,a:visited
+{
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0px 10px ;
+	font-size: 20px;
+	display: block;
+	font-weight:bold;
+	font-family: Helvetica;
+//	color:#4A4A4A;
+	color: #FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.nav_content a:hover,a:active 
+{
+//	background-color:#C8C8C8;
+	color: #FF0000;
+}
+.nav_content ul li a img
+{
+	height:46px; 
+	width:46px;
+	line-height: 20px;
+	margin: 2px auto;
+	border: none;
+}
+.main
+{
+	width: 960px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container
+{
+	//display: inline;
+	width: 60%;
+	float: left;
+}
+.content
+{
+	
+	padding: 15px;
+//	border: 2px solid #E5E5E5;
+	float: left;
+	margin-bottom: 15px;
+	//background-color: #FFFFE8;
+	background-color: #FFFFFF;	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.ctContent p
+{
+	text-indent: 2em;
+	line-height: 1.5em;
+	font-size: 1.125em;
+	letter-spacing: 2px;
+	font-family: SimSun ,Helvetica, "Microsoft Yahei";
+}
+.sidebar
+{
+	margin-left: 10px;
+	margin-right: auto;
+	width: 36%;
+	height: 500px;
+	border: 1px solid #c6c6c6;
+	float: left;
+	display: inline;
+}
+.ctTopic
+{
+	margin-bottom: 10px;
+}
+.ctInfo
+{
+//	height: 1.5em;
+	margin-bottom: 10px;
+}
+.ctTime
+{
+	float: right;
+	font-family: Arial,Helvetica;
+	color: #878787;
+	font-size: 0.8em;
+//	border: 1px solid #000000;
+}
+.ctLabels
+{
+	float: left;
+	font-family: Arial,"Microsoft Yahei",Helvetica,"HiraginoSans GB";
+	font-size: 0.8em;
+}
+.ctLabels ul
+{
+	list-style-type: none;
+	display: block;
+//	float: left;
+}
+.ctLabels ul li
+{
+	float: left;
+	margin-left: 10px;
+//	height: 1.5em;
+}
+.ctLabel:link,.ctLabel:visited
+{
+	color: #000;
+	line-height: 1em;
+//	text-decoration:blink;
+}
+.ctLabel:hover,.ctLabel:active
+{
+	color: #FF0000;
+}
+
+*{padding:0; margin:0}
