@@ -24,7 +24,7 @@
 				// var ifm= document.getElementById("iframepage"); 
 				var ifm=obj;
 				var id=obj.id;
-				var subWeb = document.frames ? document.frames[id] : ifm.contentDocument; 
+				var subWeb = document.frames ? document.frames[id].document : ifm.contentDocument; 
 				if(ifm != null && subWeb != null) { 
 					ifm.height = subWeb.documentElement.scrollHeight; 
 				} 
@@ -38,11 +38,11 @@
 		<div class="main">
 			<div class="container" >
 				<div class="content" id="ct2">
-					<iframe src="content/ct2/pages.html" onload="iFrameHeight(this)"></iframe>
+					<iframe src="content/ct2/pages.html" onload="iFrameHeight(this)" id="ct2ifm" ></iframe>
 					<p style="font-size:8px;color:gray;">&lt; 图文均来自网络，文章使用<a href="http://markdownpad.com" target="_blank" style="color: blue;">MarkdownPad</a>制作。仅作测试使用。 &gt;</p>
 				</div>
 				<div class="content" id="ct1">
-					<iframe src="content/ct1/pages.html" scrolling="auto" id="ct1ifm" name="ct1ifm" onload="SetWinHeight(this)" ></iframe>
+					<iframe src="content/ct1/pages.html" scrolling="auto" id="ct1ifm" onload="iFrameHeight(this)" ></iframe>
 					<p style="font-size:8px;color:gray;">&lt; 图文均来自网络，文章使用<a href="http://markdownpad.com" target="_blank" style="color: blue;">MarkdownPad</a>制作。仅作测试使用。 &gt;</p>
 				</div>	
 			</div>
