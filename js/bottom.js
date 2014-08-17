@@ -3,5 +3,5 @@
 //alert(document.documentElement.scrollHeight);
 function load(){
 	//alert(document.documentElement.scrollHeight);
-	parent.document.all("ct1ifm").style.height=document.documentElement.scrollHeight; 
+	//parent.document.all("ct1ifm").style.height=document.documentElement.scrollHeight; 
 }
