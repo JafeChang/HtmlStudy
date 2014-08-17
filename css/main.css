@@ -2,7 +2,8 @@
 html
 {
 //	background-color: #F5F5F5;
-	background-color: #CCCCCC;
+//	background-color: #CCCCCC;
+	background-image:url(../image/background.png); 
 	width: 100%;
 }
 body
