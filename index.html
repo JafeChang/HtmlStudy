@@ -5,23 +5,8 @@
 		<link rel="shortcut icon" href="eyes1.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<title>首页测试</title>
-		<!-- <script language = "JavaScript" src = "./js/bottom.js"/></script>  -->
-		<script type="text/javascript" language="javascript"> 
-			function SetWinHeight(obj) { 
-				var win=obj; 
-				if (document.getElementById) { 
-					if (win && !window.opera) { 
-						if (win.contentDocument && win.contentDocument.documentElement.offsetHeight) 
-							win.height = win.contentDocument.documentElement.offsetHeight; 
-						else if(win.Document && win.Document.documentElement.scrollHeight) 
-							win.height = win.Document.documentElement.scrollHeight; 
-					} 
-				} 
-			} 
-		</script> 
 		<script type="text/javascript" language="javascript"> 
 			function iFrameHeight(obj) { 
-				// var ifm= document.getElementById("iframepage"); 
 				var ifm=obj;
 				var id=obj.id;
 				var subWeb = document.frames ? document.frames[id].document : ifm.contentDocument; 
