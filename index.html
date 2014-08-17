@@ -24,7 +24,7 @@
 				// var ifm= document.getElementById("iframepage"); 
 				var ifm=obj;
 				var id=obj.id;
-				var subWeb = document.frames ? document.frames[id].document : ifm.contentDocument; 
+				var subWeb = document.frames ? document.frames[id] : ifm.contentDocument; 
 				if(ifm != null && subWeb != null) { 
 					ifm.height = subWeb.documentElement.scrollHeight; 
 				} 
