@@ -211,5 +211,9 @@ body
 	font-family: Arial,georgia,Helvetica,SimSun,"HiraginoSans GB";
 	line-height: 1.8;
 }
-
+.sidebar img
+{
+	position: relative;
+	top:400px;
+}
 *{padding:0; margin:0}
