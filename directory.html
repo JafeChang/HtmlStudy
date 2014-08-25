@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="shortcut icon" href="eyes1.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/directory.css">
+		<title>首页测试</title>
+		<script type="text/javascript">
+			function smallestSize(){
+				var obj=document.getElementById("dir")
+				var height=obj.offsetHeight;
+				if(height<600){
+					obj.style.height=600+"px";
+				}
+			}
+		</script>
+	</head>
+	<body onload="smallestSize()">
+		<div role="navigation" class="nav">
+		<iframe src="navigation.html" scrolling="no"></iframe>
+		</div>
+		<div class="main">
+			<div class="container" >
+				<div class="directory" id="dir">
+					<ul>
+						<li><a href="./content/ct2/page.html" target="_top">我与五阶的故事</a></li>
+						<li><a href="./content/ct1/page.html" target="_top"> 巧克力的故事</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="sidebar">
+				<ul>
+					<li><span class="ctBK RBK">■</span><span>&nbsp;</span>乱写的东西</li>
+					<li><span class="ctBK YBK">■</span><span>&nbsp;</span>无聊的瞎想</li>
+					<li><span class="ctBK GBK">■</span><span>&nbsp;</span>技术的法门</li>
+					<li><span class="ctBK BBK">■</span><span>&nbsp;</span>过时的资讯</li>
+					<li><span class="ctBK DBK">■</span><span>&nbsp;</span>未来的怅惘</li>
+				</ul>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+	</body>
+</html>

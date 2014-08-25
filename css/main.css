@@ -5,6 +5,7 @@ html
 //	background-color: #CCCCCC;
 	background-image:url(../image/background.png); 
 	width: 100%;
+	overflow-y:scroll;
 }
 body
 {
@@ -44,7 +45,7 @@ body
 {
 	float: left;
 }
-.nav_content a:link,a:visited
+.nav_content a:link,.nav_content a:visited
 {
 	width: 120px;
 	height: 50px;
@@ -60,7 +61,7 @@ body
 	text-decoration:none;
 	text-transform:uppercase;
 }
-.nav_content a:hover,a:active 
+.nav_content a:hover,.nav_content a:active 
 {
 //	background-color:#C8C8C8;
 	color: #FF0000;
@@ -210,4 +211,5 @@ body
 	font-family: Arial,georgia,Helvetica,SimSun,"HiraginoSans GB";
 	line-height: 1.8;
 }
+
 *{padding:0; margin:0}
