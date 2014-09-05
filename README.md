@@ -5,7 +5,7 @@ just a test
 
 This repository was just set for learning HTML/CSS.
 
-If you have some advise, you can send E-mail to jafechang@gamil.com.
+If you have some advise, you can send an E-mail to jafechang@gamil.com.
 
 Jafe Chang
 
