@@ -1,8 +1,6 @@
 HtmlStudy
 =========
--- 
 just a test
-
 
 This repository was just set for learning HTML/CSS.
 
